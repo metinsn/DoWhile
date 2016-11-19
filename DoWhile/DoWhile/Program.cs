@@ -10,6 +10,14 @@ namespace DoWhile
     {
         static void Main(string[] args)
         {
+
+            int i = 0;
+            do
+            {
+                Console.WriteLine("Selam");
+            } while (i != 0);
+            Console.ReadKey();
+
         }
     }
 }
